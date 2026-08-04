@@ -1,1 +1,0 @@
-export { filterProducts } from "@/lib/filterProducts";
