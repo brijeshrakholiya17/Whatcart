@@ -14,7 +14,6 @@ export default async function Home({ searchParams }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-brand mb-6">Product Listing</h1>
       <div className="flex flex-col lg:flex-row gap-6">
         <Suspense fallback={<div className="w-full lg:w-64 h-96 bg-gray-100 rounded-lg animate-pulse" />}>
           <Sidebar />
