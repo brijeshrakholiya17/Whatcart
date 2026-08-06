@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Star, Minus, Plus } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export default function ProductDetailClient({ product }) {
     const [quantity, setQuantity] = useState(1);
@@ -18,7 +19,7 @@ export default function ProductDetailClient({ product }) {
     return (
         <div className="max-w-5xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="aspect-square w-full rounded-lg overflow-hidden bg-white">
-                <img src={product.image} alt={product.title} priority className="w-full h-full object-cover" />
+                <img src={product.image} alt={product.title} fetchPriority="high" className="w-full h-full object-cover" />
             </div>
 
             <div>
@@ -57,6 +58,8 @@ export default function ProductDetailClient({ product }) {
                 >
                     {added ? "Added ✓" : "Add to Cart"}
                 </button>
+
+                <ReviewsSection reviews={product?.reviews} />
             </div>
         </div>
     );
