@@ -3,6 +3,7 @@
 A fully responsive e-commerce product listing application built for the WhatBytes Frontend Developer Internship assignment, using **Next.js (App Router)**, **Tailwind CSS**, and **Zustand**.
 
 **🔗 Live Demo:** [whatbytes-frontend-assignment-rho.vercel.app](https://whatbytes-frontend-assignment-rho.vercel.app/)
+
 **📦 Repository:** [github.com/brijeshrakholiya17/Whatcart](https://github.com/brijeshrakholiya17/Whatcart)
 
 ---
