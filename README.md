@@ -57,26 +57,28 @@ WhatCart is a three-page shopping experience — a filterable product listing, d
 
 ## 📁 Project Structure
 
+```
 whatcart/
 ├── app/
-│ ├── page.js # Home — product listing
-│ ├── layout.js # Root layout (Header + Footer)
-│ ├── product/[id]/ # Dynamic product detail route
-│ └── cart/ # Cart page
+│   ├── page.js              # Home — product listing
+│   ├── layout.js             # Root layout (Header + Footer)
+│   ├── product/[id]/         # Dynamic product detail route
+│   └── cart/                 # Cart page
 ├── components/
-│ ├── Header.js
-│ ├── Footer.js
-│ ├── Sidebar.js # Filters
-│ ├── ProductCard.js
-│ ├── ProductGrid.js
-│ ├── ProductDetailClient.js
-│ └── ReviewsSection.js
+│   ├── Header.js
+│   ├── Footer.js
+│   ├── Sidebar.js            # Filters
+│   ├── ProductCard.js
+│   ├── ProductGrid.js
+│   ├── ProductDetailClient.js
+│   └── ReviewsSection.js
 ├── lib/
-│ ├── products.js # Product dataset
-│ └── filterProducts.js # Filtering logic
+│   ├── products.js           # Product dataset
+│   └── filterProducts.js     # Filtering logic
 ├── store/
-│ └── cartStore.js # Zustand cart store
-└── public/images/products/ # Optimized WebP product images
+│   └── cartStore.js          # Zustand cart store
+└── public/images/products/   # Optimized WebP product images
+```
 
 ## 🏃 Run Locally
 
